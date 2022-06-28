@@ -1,0 +1,9 @@
+create database camisas
+
+use camisas
+
+create table camisas(
+codigo int primary key not null,
+descricao varchar(50) not null,
+preco money not null
+)
